@@ -1,8 +1,7 @@
 package com.ManualDeployTest.ManualDeployTest;
 
 import jakarta.persistence.*;
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import java.util.Date;
@@ -10,6 +9,8 @@ import java.util.Date;
 @Data
 @Builder(toBuilder = true)
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name="users")
 public class user {
     @Id
