@@ -55,6 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>MDeployTest</finalName>
 	</build>
 
 </project>
