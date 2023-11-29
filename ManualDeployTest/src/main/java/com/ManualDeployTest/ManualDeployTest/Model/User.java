@@ -1,8 +1,7 @@
-package com.ManualDeployTest.ManualDeployTest;
+package com.ManualDeployTest.ManualDeployTest.Model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import java.util.Date;
 
@@ -12,7 +11,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name="users")
-public class user {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
